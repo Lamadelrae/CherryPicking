@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CherryPicking.Models;
+
+var person = new Person(1, "Matthew", "email@gmail.com");
+Console.WriteLine($"Id: {person.Id}; Name: {person.Name}; Email: {person.Email};");
